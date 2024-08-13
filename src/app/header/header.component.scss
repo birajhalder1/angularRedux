@@ -1,0 +1,17 @@
+.cart_icon{
+	height: 30px !important;
+}
+.cart_area{
+    position: relative;
+}
+.cart_area span{
+    position: absolute;
+    margin-left: -5px;
+    margin-top: -3px;
+    font-size: 12px;
+}
+/* Add styles for the active route link */
+.navbar-nav .nav-link.router-link-active {
+    background-color: #e8f3bb; /* Change this color to your desired active background color */
+    border-radius: 4px; /* Optional: Add border-radius for rounded corners */
+  }

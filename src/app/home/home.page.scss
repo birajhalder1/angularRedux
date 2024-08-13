@@ -1,0 +1,16 @@
+*{
+	font-family: "MyriadProRegular";
+    font-size: 1.5vw;
+}
+.main_body {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.main_container{
+	height: 100%;
+	background-color: rgb(11, 90, 57); /* For browsers that do not support gradients */
+  	background-image: linear-gradient(to bottom right, rgb(8, 122, 65), rgb(0, 255, 42));
+}

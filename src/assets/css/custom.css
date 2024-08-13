@@ -1,0 +1,24 @@
+.main-contain{
+    margin: 15px 10px 5px 10px;
+}
+.product-image {
+    width: auto;
+    height: 200px;
+    text-align: center;
+}
+
+.product-image img {
+    object-fit: contain;
+    height: 100% !important;
+}
+.cart{
+    background: #e8f3bb;
+    padding: 10px;
+    color: #000;
+    border-radius: 5px;
+}
+.cart:hover{
+    border: #e8f3bb;
+    background: #7c8169;
+    color: #fff;
+}
