@@ -9,7 +9,7 @@ import { addToCart } from '../store/cart.action';
   styleUrls: ['./fruits.page.scss'],
 })
 export class FruitsPage implements OnInit {
-  @Input() item: any;
+  // @Input() item: any;
   arrFruits: any = [];
   constructor(private store: Store<any>, private service: ApiServiceService) { }
   ngOnInit() {

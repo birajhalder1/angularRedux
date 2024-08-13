@@ -8,16 +8,16 @@ import { Store } from '@ngrx/store';
 })
 export class HeaderComponent implements OnInit {
 
-  cartCount = this.store.select('cartCount')
+  cartCount = 0;
   cart: any[] = [];
   constructor(private store: Store<any>) { }
 
   ngOnInit() {
     this.store.select('cart').subscribe((res: any) => {
       this.cart = res.cart;
-
-      console.log("header cart", this.cart);
+      console.log("cart", this.cart);
       
+      this.cartCount = this.cart.length;
     })
   }
 

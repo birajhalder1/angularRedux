@@ -6,8 +6,6 @@ export const initialState = {
 export const cartReducer = createReducer(
     initialState,
     on(addToCart, (state: any, {item}) =>{
-        console.log("cartReducer", state, item);
-        
         return {...state, cart:[...state.cart, item]}
     })
 )
